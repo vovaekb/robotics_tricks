@@ -1,5 +1,5 @@
 # Add swap space on Raspberry Pi (Ubuntu 16.04)
-Sometimes it is useful to add additional swap memory on Raspberry Pi. It can happen than current RAM memory is not enough and you can get error "virtual memory exhausted: Cannot allocate memory". In this case we need to add swap space.
+Sometimes it is useful to add additional swap memory on Raspberry Pi. It can happen than current RAM memory is not enough and you can get error "virtual memory exhausted: Cannot allocate memory" while compiling from sources. In this case we need to add swap space.
 
 ## Check swap information in the system
 Firstly let`s check whether the system has swap space configured:
